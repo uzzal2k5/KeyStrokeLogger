@@ -13,11 +13,11 @@ grave key is found below Esc key
 
 Requirement: python-xlib required. you can download and install it from
 http://dl.fedoraproject.org/pub/epel/7/x86_64/p/
-# OnKeyStrokeEvent is called everytime occurs a key event.
-# Call a thread here to send shecdule mail at every 30 second
- #After Initiate first threading , threading sleep 15 seconds
+ OnKeyStrokeEvent is called everytime occurs a key event.
+ Call a thread here to send shecdule mail at every 30 second
+ After Initiate first threading , threading sleep 15 seconds
  
- # 96 is the ascii value of the grave key (`), we should use any value that is generally press by a ordinary user
+  96 is the ascii value of the grave key(`) we should use any value that is generally press by a ordinary user
   If you want to modify or reuse this code, chose this value wisely
  
  Email:
