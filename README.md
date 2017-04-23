@@ -11,8 +11,10 @@ The program terminates when grave key(`) is pressed
 
 grave key is found below Esc key
 
-Requirement: python-xlib required. you can download and install it from
+Requirement:
+python-xlib required. you can download and install it from
 http://dl.fedoraproject.org/pub/epel/7/x86_64/p/
+
  OnKeyStrokeEvent is called everytime occurs a key event.
  Call a thread here to send shecdule mail at every 30 second
  After Initiate first threading , threading sleep 15 seconds
